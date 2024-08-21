@@ -1,6 +1,7 @@
+import "./SignIn.css";
+import Logo from "/public/img/logo.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import "./SignIn.css";
 import { toast } from "react-toastify";
 
 function SignIn() {
@@ -92,7 +93,7 @@ function SignIn() {
             </p>
           </div>
           <div className="form-img">
-            <img src="" alt="" />
+            <img src={Logo} alt="" />
           </div>
         </div>
       </div>

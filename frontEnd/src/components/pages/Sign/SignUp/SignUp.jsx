@@ -1,7 +1,7 @@
-import "./SignUp.css";
-
-import React, { useState } from "react";
+import "./SignUp.jsx";
+import Logo from "/public/img/logo.png";
 import { Link } from "react-router-dom";
+import React, { useState } from "react";
 import { toast } from "react-toastify";
 function SignIn() {
   // Declara o estado formData para armazenar os dados do formulário
@@ -95,7 +95,7 @@ function SignIn() {
             </p>
           </div>
           <div className="form-img">
-            <img src="" alt="" />
+            <img src={Logo} alt="" />
           </div>
         </div>
       </div>
